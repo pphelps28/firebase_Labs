@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Firebase 101</title>
+		<link rel="stylesheet" href="basic.css" />
+	</head>
+
+	<body>
+		<div id="app">
+			<input type="email" id="txtEmail" placeholder="Enter email" /><br />
+			<input type="password" id="txtPassword" placeholder="Enter Password" />
+			<button class="button" id="btnLogin">Login</button>
+			<button class="button" id="btnSignUp">Sign Up</button>
+			<button class="button" id="btnLogout" class="hide">Log Out</button>
+			<button class="button" id="googleSignIn">Sign In With Google</button>
+		</div>
+
+		<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
